@@ -14,7 +14,7 @@ inquirer.prompt([{
   if (choices.searchChoice === "actor") {
     inquirer.prompt([{
       name: "actors",
-      message: "Input the name of the actor you would like to search for"
+      message: "Which Actor would you like to search for"
     }]).then(function(actorChoice){
       var search = actorChoice.actors
       tv.findActor(search)
