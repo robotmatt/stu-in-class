@@ -18,6 +18,8 @@ if (!search) {
 
 if (search === "show") {
   console.log("Searching for TV Show: " + term);
+  tv.findShow(term);
 } else {
   console.log("Searching for TV Actor: " + term);
+  tv.findActor(term);
 }

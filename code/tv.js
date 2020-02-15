@@ -3,6 +3,7 @@ var fs = require("fs");
 
 // Create the TV constructor
 var TV = function () {
+
   // divider will be used as a spacer between the tv data we print in log.txt
   var divider = "\n------------------------------------------------------------\n\n";
 
